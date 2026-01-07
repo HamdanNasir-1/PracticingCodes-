@@ -2,14 +2,22 @@
   "name": "new-folder",
   "version": "1.0.0",
   "description": "",
-  "main": "hello.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamdanNasir-1/PracticingCodes-.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/HamdanNasir-1/PracticingCodes-/issues"
+  },
+  "homepage": "https://github.com/HamdanNasir-1/PracticingCodes-#readme",
   "dependencies": {
     "express": "^5.2.1"
   }
