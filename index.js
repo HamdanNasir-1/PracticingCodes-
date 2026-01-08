@@ -12,7 +12,7 @@ app.get("/",(req,res)=>{
 })
 app.get("/profile/:username/:age",(req,res)=>{
     res.send("papa "+req.params.username+" of age "+req.params.age   );
-    // res.send();
+
 })
 
 app.listen(3000);
