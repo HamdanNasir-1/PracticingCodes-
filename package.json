@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/HamdanNasir-1/PracticingCodes-#readme",
   "dependencies": {
-    "express": "^5.2.1",
-    "nodemon": "^3.1.11"
+    "express": "^5.2.1"
   }
 }
