@@ -1,24 +1,15 @@
 const express = require("express");
 const app = express();
-const path = require("path");
-const routes = require("./routes/route");
+const port = 3000;
 
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-app.use(express.static(path.join(__dirname, "public")));
-app.set("view engine", "ejs");
-
-app.get("/route",routes);
-
+app.use("/",(req,res,next)=>{
+    console.log("hello babay hamdan")
+    next();
+})
 app.get("/", (req, res) => {
-    res.send("hello")
+    res.send("Hello Papa");
 })
-app.get("/profile/:username/:age", (req, res) => {
-    res.send("papa " + req.params.username + " of age " + req.params.age);
 
+app.listen(port, () => {
+    console.log("App is running ")
 })
-app.get("/index", (req, res) => {
-    res.send("Get request running ");
-
-})
-app.listen(3000);
