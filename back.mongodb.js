@@ -76,3 +76,4 @@ db.createCollection("peoples")
 // db.peoples.updateMany({name:"neha"},{$set:{name:"sneha"}});
 // let a = db.peoples.find({name:"sneha"});
 // console.log(a.count());
+// console.log(db.peoples.deleteMany({name:"sneha"}))
