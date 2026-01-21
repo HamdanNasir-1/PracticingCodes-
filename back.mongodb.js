@@ -1,4 +1,6 @@
+
 use("newDB");
+
 
 db.createCollection("peoples")
 
@@ -65,5 +67,8 @@ db.peoples.insertMany([
 
 ])
 
-let a = db.peoples.find({name:"neha"});
-console.log(a);
+// let a = db.peoples.find({name:"neha"});
+// console.log(a);
+// let b = db.peoples.findOne({name:"neha"});
+
+// console.log(b)
