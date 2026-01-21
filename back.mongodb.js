@@ -73,6 +73,6 @@ db.peoples.insertMany([
 
 // console.log(b)
 
-db.peoples.updateMany({name:"neha"},{$set:{name:"sneha"}});
-let a = db.peoples.find({name:"sneha"});
-console.log(a.count());
+// db.peoples.updateMany({name:"neha"},{$set:{name:"sneha"}});
+// let a = db.peoples.find({name:"sneha"});
+// console.log(a.count());
