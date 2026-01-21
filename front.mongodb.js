@@ -7,5 +7,5 @@ db.NewPeoples.insertOne({
     age:22
 })
 
-let a = db.NewPeoples.find({age:22});
-console.log(a);
+let a = db.NewPeoples.find({name:"The Greate Papa"});
+console.log(a.toArray());
